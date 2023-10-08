@@ -77,4 +77,10 @@ body {
   padding: 2rem;
 }
 
+.banner-title {
+  font-size: 3.4rem;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 3rem;
+}
+
 /*----END of HERO--------*/
