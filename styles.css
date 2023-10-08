@@ -75,12 +75,30 @@ body {
   background: rgba(255, 255, 255, 0.8);
   display: inline-block;
   padding: 2rem;
+  border-radius: 4px;
 }
 
 .banner-title {
-  font-size: 3.4rem;
+  font-size: 45px;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
+}
+
+.banner-btn {
+  padding: 1rem 3rem;
+  letter-spacing: var(--mainSpacing);
+  font-size: 17px;
+  background: var(--primaryColor);
+  color: var(--mainBlack);
+  border: none;
+  border-radius: 4px;
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  background: transparent;
+  color: var(--primaryColor);
 }
 
 /*----END of HERO--------*/
