@@ -94,6 +94,7 @@ body {
   border-radius: 4px;
   transition: var(--mainTransition);
   cursor: pointer;
+  border: 1px solid var(--primaryColor);
 }
 
 .banner-btn:hover {
